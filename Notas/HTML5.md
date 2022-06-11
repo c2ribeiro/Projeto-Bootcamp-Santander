@@ -22,4 +22,10 @@ Na sequência temos o ***< body>*** , aqui é o corpo da página, nele podemos i
 
 - ***< h1> _ < h6>*** - Descreve a importância de um título, sendo h1 mais importante e h6 menos importante.
 
+- ***< p>*** - É usado para parágrafos no conteúdo, podendo também usar imagens e vídeos com ele.
+
+- ***< a>*** - Usado como ancora, serve para adicionar links junto do *href* e do *target*, onde o href aponta para links e e-mails, e o target como o link vai ser aberto, em nova aba por exemplo. (< a href= "link" target = "_blank"> texto referente ao link< a/>) ou (< a href= "mailto: email"> texto referente ao link< a/>) 
+
+- ***< img>*** - Esse é para imagens com dois elementos o *src* e o *alt*, onde o *src* indica o caminho da imagem e o *alt* mostra a descrição da imagem quando ela não abre. (< img src = "Nome do arquivo de imagem" alt = "Descrição da imagem")
+
   
