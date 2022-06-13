@@ -28,4 +28,10 @@ Na sequência temos o ***< body>*** , aqui é o corpo da página, nele podemos i
 
 - ***< img>*** - Esse é para imagens com dois elementos o *src* e o *alt*, onde o *src* indica o caminho da imagem e o *alt* mostra a descrição da imagem quando ela não abre. (< img src = "Nome do arquivo de imagem" alt = "Descrição da imagem")
 
+- *** < ul>*** - Ele representa uma lista não ordenada.
+
+- **< ol>**  - Representa uma lista ordenada.
+
+- *** < li>*** - Representa um item da lista ordenada.
+
   
