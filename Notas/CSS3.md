@@ -20,7 +20,7 @@
 
 - **CSS** : Com o seletor, iremos personalizar nossos elementos HTML através de comandos.
 
-  tittle, subtitle, post_title {
+  #tittle, .subtitle, .post_title {
 
   color: blue;
 
