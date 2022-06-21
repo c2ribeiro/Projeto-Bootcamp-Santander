@@ -35,3 +35,10 @@
   }
 
 no primeiro seletor, mudamos a cor dos nossos títulos para azul e no segundo mudamos o tamanho da fonte e colocamos em itálico nosso post title.  
+
+- **Box model** : Divide-se em 4 partes, margin, border, padding e content. 
+
+Onde *margin* é o espaçamento entre os elementos, *border* vai circundar 
+
+o padding e os elementos, nessa parte podemos alterar coisas como largura e cor, já o *padding* é o espaçamento entre a borda e o conteúdo.
+
