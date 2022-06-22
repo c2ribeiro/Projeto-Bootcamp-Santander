@@ -42,3 +42,103 @@ Onde *margin* é o espaçamento entre os elementos, *border* vai circundar
 
 o padding e os elementos, nessa parte podemos alterar coisas como largura e cor, já o *padding* é o espaçamento entre a borda e o conteúdo.
 
+Para inserir uma box, vamos adicionar uma classe no html e modificar no CSS.
+
+Há como personalizar o padding e margin de maneira a diferenciar os lados, o primeiro modo é colocando valores para as partes, superior e inferior e depois para os lados, esquerdo e direito. O segundo modo de fazer isso, é inserir propriedades específicas para cada lado.
+Ex1 - .post{ 
+
+margin: 15px 10px
+
+}
+
+Ex2 - .post {
+
+margin-top: 10px;
+
+margin-right: 15px;
+
+margin-botton: 10px;
+
+margin-left: 0;
+
+}
+
+**TODOS SEGIRÃO A ORDEM: TOPO, DIREITA, INFERIOR E ESQUERDA**
+
+***Background*** - Tem a função de alterar a cor, posição e adicionar uma imagem.
+
+.post{
+
+background-color: red 
+
+background-position: top;
+
+background-image: url("sk.png")
+
+}
+
+***Border*** - Pode ter 3 valores, largura, cor e estilo.
+
+.post {
+
+border: 3px solid blue;
+
+border-top: 2px dotted green; // Topo da borda pontilhado verde
+
+border-right: 4px dashed pink; // lado esquerdo da borda tracejado rosa
+
+}
+
+Com o ***border-radius***, arredondamos os cantos das bordas:
+
+border-radius: 10% 15% 10% 15%
+
+**Texto** :
+
+#title{ 
+
+font-family: Arial;
+
+font-size: 10px
+
+font-style: normal; ou italic;
+
+font-weight: bold; //peso do texto, negrito
+
+text-decoration: underline; ou overline; ou line-throught//Insere abaixo da palavra, uma linha acima do texto, uma linha cortando a palavra
+
+text-transform: uppercase; ou lowercase; ou capitalize; //maiúsculo, minúsculo e toda primeira letra maiúscula 
+
+}
+
+**Listas** : 
+
+ul {
+
+list-style-type: square; //lista não ordenada alterando o símbolo para um quadrado
+
+list-style-type: "1F44D"; //alterando para um emogi
+
+list-style-type: list-style-image: url("rocket.png")//alterando para uma imagem 
+
+}
+
+ol{ 
+
+list-style-type: upper-roman; //lista ordenada alterando para algarismos romanos maiúsculos
+
+}
+
+- **Dimensão e alinhamento** 
+
+  *Width* - Largura
+
+  *Height* - Altura
+
+*Max-Width* - Largura máxima (Porcentagem)
+
+*Max-Height* - Altura máxima (Porcentagem)
+
+ *Margin* - Alinha, se deixar margin: auto; alinha automático
+
+Text alingn - Alinha o texto.
