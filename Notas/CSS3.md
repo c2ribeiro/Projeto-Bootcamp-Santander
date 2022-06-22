@@ -103,7 +103,7 @@ font-size: 10px
 
 font-style: normal; ou italic;
 
-font-weight: bold; //peso do texto, negrito
+font-weight: normal; ou bold; //peso do texto, negrito
 
 text-decoration: underline; ou overline; ou line-throught//Insere abaixo da palavra, uma linha acima do texto, uma linha cortando a palavra
 
