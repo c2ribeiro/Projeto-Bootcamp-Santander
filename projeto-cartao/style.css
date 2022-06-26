@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300&family=Italiana&display=swap');
+
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-size: 100%;
+    background: linear-gradient(270.85deg, #A8E1E9 0.77%, rgba(168, 225, 233, 0) 99.32%);
+    margin: auto;
+    
+}
+.cabecalho{
+    display: flex;
+    flex-direction: column;
+    padding-top: 24px ;
+    align-items: end;
+    justify-content: end;
+}
+.cabecalho-imagem{
+    max-height:425px ;
+    border: 3px solid #d9d9d9;
+    border-radius: 50%;
+}
+.nome{
+    font-family: italiana;
+    border: #d9d9d9;
+    padding-top:20px ;
+    padding-right:74px ;
+    justify-content: center;
+}
+.funcao{
+    font-family:italiana ;
+    justify-content: center;
+    padding-right: 180px;
+}
+.logos{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 129px;
+    padding-top:342px ;
+}
+.logo-wpp{
+    max-height: 192px;
+    max-width: 192px;
+    padding-left:293px;
+}
+.logo-insta{
+    max-height: 192px;
+    max-width: 192px;
+    padding-left:293px;
+}
+.logo-email{
+    max-height: 192px;
+    max-width: 192px;
+    padding-left:293px;
+}
+.rodape{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 249px;
+}
+.click{
+    font-family: hind ;
+}
+.img-rodape{
+    max-height: 72px;
+    max-width: 72px;
+}
