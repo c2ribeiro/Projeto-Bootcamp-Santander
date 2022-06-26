@@ -33,5 +33,3 @@ Na sequência temos o ***< body>*** , aqui é o corpo da página, nele podemos i
 - **< ol>**  - Representa uma lista ordenada.
 
 - *** < li>*** - Representa um item da lista ordenada.
-
-  
