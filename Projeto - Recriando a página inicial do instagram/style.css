@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;  
+    font-size: 14px;
+    font-family: sans-serif;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(160.27deg, #8F00FF 14.34%, #DB00FF 42.88%, #FFC700 87.37%, #FFFFFF 97.75%);
+    margin: 0;
+    padding: 0; 
+    display: flex;  
+    justify-content: center;
+}
+.page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+}
+.esquerdo{ 
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 50%;
+}
+.cell{
+    max-width: 50rem;
+    min-width: auto;
+}
+.direito{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 50%;
+    gap: 10px;
+}
+.pt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 400px;
+    gap: 20px;
+    padding: 30px;
+    border: 1px solid rgb(255, 255, 255);
+}
+.pt2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 400px;
+    padding: 30px;
+    border: 1px solid rgb(255, 255, 255);
+}
+.pt3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    width: 400px;
+    gap: 20px;
+}
+.instagram{
+    width: 13rem;
+}
+.perfil{
+    width: 7rem;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 50%;
+}
+.botao{
+    background:#0095F6;
+    padding: 5px 9px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 4px;
+}
+.nomebot{
+    font-family: roboto;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+}
+.click{
+    font-family: roboto;
+    color: rgb(255, 255, 255)
+}
+.nao{
+    font-family: roboto;
+    color: rgb(255, 255, 255);
+}
+.lojaapp{
+    height: 40px;
+}
+/* media qeries*/
+
+@media (max-width: 1024px){
+
+    .page{
+        width: 90%;
+    }
+}
+
+@media (max-width: 650px) {
+    
+    
+    .page{
+        width: 90%;
+    }
+    .cell{
+        display: none;
+    }
+    .direito{
+    width: 100%;
+
+    } 
+    
+}
